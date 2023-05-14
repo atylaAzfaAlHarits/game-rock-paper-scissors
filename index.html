@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="center">
+        <h1>Selamat datang di game Rock-Paper-Scissors</h1>
+    </div>
+    <div class="paragraph-center">
+        <p>Silahkan pilih batu, gunting, atau kertas</p>
+    </div>
+
+    <div class="image-option-form">
+        <form id="option-form" action="result.html">
+            <div class="rock">
+                <label for="option1" class="image-label">
+                    <img src="img/batu.jpg" alt="" srcset="" width="160" class="rock-img">
+                </label>
+                <input type="radio" id="option1" name="option" value="img/batu.jpg">
+            </div>
+            <div class="scissors">
+                <label for="option2" class="image-label">
+                    <img src="img/gunting.jpg" alt="" srcset="" width="160" height="220" class="scissors-img">
+                </label>
+                <input type="radio" id="option2" name="option" value="img/gunting.jpg">
+            </div>
+            <div class="paper">
+                <label for="option3" class="image-label">
+                    <img src="img/kertas.jpg" alt="" srcset="" width="180" class="paper-img">
+                </label>
+                <input type="radio" id="option3" name="option" value="img/kertas.jpg">
+            </div>
+            <button class="button-submit" type="submit">Lanjutkan</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
